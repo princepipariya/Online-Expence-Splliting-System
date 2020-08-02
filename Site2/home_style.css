@@ -1,0 +1,76 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';
+    background-image: url("at2.jpg");  
+    height: 500px
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}  
+.home{  
+        width: 650px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;
+        background-image: url("at5.jpg");  
+        height: 500px
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #6495ED;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}  
+#history{  
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;   
+}
+h2{  
+    text-align: center;  
+    color: gray;  
+    padding: 20px;  
+}  
+label{  
+    color: #00FFFF;  
+    font-size: 17px;  
+}  
+span{  
+    color: pink;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
