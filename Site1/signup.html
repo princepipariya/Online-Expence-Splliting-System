@@ -5,12 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="index_style.css">
 </head>
 <body>
+    <script type="text/javascript" src="signup.js"></script>
 	<center>
 	<br>
 	<span><h1><b><u>Sign Up</u></b></h1></span>
 	<br>
 	<div class="login">
-	<form action="home.html">
 		<label><b>Username     
         </b>    
         </label>    
@@ -19,12 +19,12 @@
         <label><b>Email     
         </b>    
         </label><br> 
-        <input type="email" name="email" id="Uname" placeholder="Email" required> 
+        <input type="email" name="email" id="mailid" placeholder="Email" required> 
         <br><br>
         <label><b>Phone No.     
         </b>    
         </label>    
-        <input type="text" name="phno" id="Uname" placeholder="Phone No." required>    
+        <input type="text" name="phno" id="phone" placeholder="Phone No." required>    
         <br><br>    
         <label><b>Password     
         </b>    
@@ -34,11 +34,10 @@
         <label><b>Re-Password     
         </b>    
         </label>    
-        <input type="Password" name="repassword" id="Pass" placeholder="Re-Password" required>  
+        <input type="Password" name="repassword" id="Repass" placeholder="Re-Password" required>  
         <br><br>    
-        <input type="submit" name="login" id="log" value="Sign Up">       
+        <input type="submit" name="login" onClick="signup()" id="log" value="Sign Up">       
         <br><br>
-	</form>
 	<form action="index.html">
         <input type="submit" name="index" id="log" value="Sign In">
         <br><br>

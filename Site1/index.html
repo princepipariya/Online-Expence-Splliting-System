@@ -5,12 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="index_style.css">
 </head>
 <body>
+    <script type="text/javascript" src="login.js"></script>
 	<center>
 	<br>
 	<span><h1><b><u>Login Form</u></b></h1></span>
 	<br><br><br>
 	<div class="login">
-	<form action="home.html">
 		<label><b>Username     
         </b>    
         </label>    
@@ -24,9 +24,8 @@
         <input type="checkbox" id="check">    
         <span>Remember me</span>  
         <br><br>    
-        <input type="submit" name="login" id="log" value="Log In Here">       
+        <input type="submit" name="login" id="log" onClick="login()" value="Log In Here">       
         <br><br>
-	</form>
 	<form action="signup.html">
         <input type="submit" name="signup" id="log" value="Sign Up">
         <br><br>
