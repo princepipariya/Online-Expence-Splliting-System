@@ -3,35 +3,38 @@
 <head>
 	<title>Index Page</title>
 	<link rel="stylesheet" type="text/css" href="index_style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="login.js"></script>
 	<center>
 	<br>
 	<span><h1><b><u>Login Form</u></b></h1></span>
 	<br><br><br>
 	<div class="login">
-		<label><b>Username     
+		<label><b>Username   
         </b>    
-        </label>    
+        </label>    <br>
         <input type="text" name="username" id="Uname" placeholder="Username" required>    
         <br><br>    
         <label><b>Password     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="Password" name="password" id="Pass" placeholder="Password" required>  
         <br><br>    
         <input type="checkbox" id="check">    
         <span>Remember me</span>  
         <br><br>    
-        <input type="submit" name="login" id="log" onClick="login()" value="Log In Here">       
+        <input type="submit" class="btn btn-primary btn-sm" name="login" onClick="login()" value="Log In Here">       
         <br><br>
 	<form action="signup.html">
-        <input type="submit" name="signup" id="log" value="Sign Up">
+        <input type="submit" class="btn btn-primary btn-sm" name="signup" value="Sign Up">
         <br><br>
     </form>
     <form action="forgetpassword.html">    
-        <input type="submit" name="forgetpassword" id="log" value="Forget Password">
+        <input type="submit" name="forgetpassword" class="btn btn-primary btn-sm" value="Forget Password">
     </form>
 	</div>
 	</center>
