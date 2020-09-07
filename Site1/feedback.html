@@ -4,8 +4,11 @@
 	<title>Feedback</title>
 	<link rel="stylesheet" type="text/css" href="index_style.css">
 	<link rel="stylesheet" type="text/css" href="home_style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
 	<div class="topnav">
   		<a href="home.html">Home</a>
   		<a href="addfriend.html">Add Friend</a>
@@ -20,8 +23,8 @@
 	<div class="login">
 	<form action="home.html">
 		<label><b>Name     
-        </b> <br>   
-        </label>    
+        </b> 
+        </label><br>    
         <input type="text" name="name" id="Uname" placeholder="Name" required>    
         <br><br>
         <label><b>Email     
@@ -31,11 +34,10 @@
         <br><br>
         <label><b>Description     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="text" name="description" id="desc" placeholder="Description" required>    
-        <br><br>    
-        <input type="submit" name="submit" id="log" value="Submit">       
-        <br><br>
+        <br><br>    <br>
+        <input type="submit" name="submit" class="btn btn-primary btn-sm" value="Submit">       
 	</form>
 	</div>	
 	</center>

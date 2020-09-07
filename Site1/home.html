@@ -3,8 +3,12 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="home_style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<div class="topnav">
   		<a class="active" href="home.html">Home</a>
   		<a href="addfriend.html">Add Friend</a>
@@ -15,34 +19,36 @@
 	<br><br><br><br><br><br>
 	<center>
 	<div class="home">
-	<form action="addfriend.html">
-		<table bgcolor="" border="1">
-			<tr>
-				<td><label><h3><b>Name</b></h3></label></td> 
-				<td><label><h3><b>** Total money that he/she owes you **</b></h3></label></td>
-				<td><label><h3><b>Details</b></label></h3></td>
-			</tr>
-			<tr>
-				<td><span>Param Patel</span></td> 
-				<td></td>
-				<td><input type="submit" id="history" name="history" value="History"> </td>
-			</tr>
-			<tr>
-				<td><span>Shlok Patel</span></td> 
-				<td></td>
-				<td><input type="submit" id="history" name="history" value="History"> </td>
-			</tr>
-			<tr>
-				<td><span>Dev Patel</span></td> 
-				<td></td>
-				<td><input type="submit" id="history" name="history" value="History"> </td>
-			</tr>
-			<tr>
-				<td><span>Maurya Patel</span></td> 
-				<td></td>
-				<td><input type="submit" id="history" name="history" value="History"> </td>
-			</tr>
-		</table>
+	<form action="history.html">
+		<div class="container"> 
+		<table class="table table-dark table-striped">
+	    <thead>
+	      <tr>
+	        <th><label>Name</label></th>
+	        <th><label>** Total money that he/she owes you **</label></th>
+	        <th><label>Details</label></th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td>Param Patel</td>
+	        <td></td>
+	        <td><input type="submit" class="btn btn-primary btn-sm" name="history" value="History"></td>
+	      </tr>
+	      <tr>
+	        <td>Dev Patel</td>
+	        <td></td>
+	        <td><input type="submit" class="btn btn-primary btn-sm" name="history" value="History"></td>
+	      </tr>
+	      <tr>
+	        <td>Shlok Patel</td>
+	        <td></td>
+	        <td><input type="submit" class="btn btn-primary btn-sm" name="history" value="History"></td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  </div>
 	</form>
+</div>
 </body>
 </html>

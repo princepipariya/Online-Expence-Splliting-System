@@ -3,9 +3,12 @@
 <head>
 	<title>Sign Up</title>
 	<link rel="stylesheet" type="text/css" href="index_style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
     <script type="text/javascript" src="signup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
 	<center>
 	<br>
 	<span><h1><b><u>Sign Up</u></b></h1></span>
@@ -13,7 +16,7 @@
 	<div class="login">
 		<label><b>Username     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="text" name="username" id="Uname" placeholder="Username" required>    
         <br><br>
         <label><b>Email     
@@ -23,24 +26,23 @@
         <br><br>
         <label><b>Phone No.     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="text" name="phno" id="phone" placeholder="Phone No." required>    
         <br><br>    
         <label><b>Password     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="Password" name="password" id="Pass" placeholder="Password" required>  
         <br><br>
         <label><b>Re-Password     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="Password" name="repassword" id="Repass" placeholder="Re-Password" required>  
-        <br><br>    
-        <input type="submit" name="login" onClick="signup()" id="log" value="Sign Up">       
+        <br><br>    <br>
+        <input type="submit" class="btn btn-primary btn-sm" name="login" onClick="signup()" value="Sign Up">       
         <br><br>
 	<form action="index.html">
-        <input type="submit" name="index" id="log" value="Sign In">
-        <br><br>
+        <input type="submit" name="index" class="btn btn-primary btn-sm" value="Sign In">
     </form>
 	</div>	
 	</center>

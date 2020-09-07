@@ -17,6 +17,6 @@ function login()
 	}
 	else
 	{
-   		window.location = "signup.html";
+   		window.location = "home.html";
 	}
 }	

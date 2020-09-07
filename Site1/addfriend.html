@@ -4,9 +4,12 @@
 	<title>Add Friend</title>
 	<link rel="stylesheet" type="text/css" href="index_style.css">
 	<link rel="stylesheet" type="text/css" href="home_style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
     <script type="text/javascript" src="home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
 	<div class="topnav">
   		<a href="home.html">Home</a>
   		<a class="active" href="addfriend.html">Add Friend</a>
@@ -21,12 +24,12 @@
 	<div class="login">
 		<label><b>First Name     
         </b>    
-        </label>    
+        </label>   <br> 
         <input type="text" name="fname" id="Fname" placeholder="First Name" required>    
         <br><br>
         <label><b>Last Name     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="text" name="lname" id="Lname" placeholder="Last Name" required>    
         <br><br>
         <label><b>Email     
@@ -36,11 +39,10 @@
         <br><br>
         <label><b>Phone No.     
         </b>    
-        </label>    
+        </label>    <br>
         <input type="text" name="phno" id="phone" placeholder="Phone No." required>    
-        <br><br>    
-        <input type="submit" name="addfriend" onClick="home()" id="log" value="Add Friend">       
-        <br><br>
+        <br><br>    <br>
+        <input type="submit" name="addfriend" onClick="home()" class="btn btn-primary btn-sm" value="Add Friend">       
 	</div>	
 	</center>
 </body>
