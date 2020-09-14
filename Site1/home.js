@@ -3,8 +3,7 @@ function home()
 	var fname= document.getElementById("Fname").value;
 	var lname= document.getElementById("Lname").value;
 	var email= document.getElementById("mailid").value;
-	var phno= document.getElementById("phone").value;
-	
+	var phno= document.getElementById("phone").value;	
 	var letters = /^[0-9]+$/;
 	var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 

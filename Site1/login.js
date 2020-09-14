@@ -1,5 +1,4 @@
-function login()
-{
+function login() {
 	var uname = document.getElementById("Uname").value;
 	var pwd = document.getElementById("Pass").value;
 	//var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;

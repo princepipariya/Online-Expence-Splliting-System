@@ -4,8 +4,7 @@ function signup()
 	var email= document.getElementById("mailid").value;
 	var phno= document.getElementById("phone").value;
 	var pwd= document.getElementById("Pass").value;			
-	var cpwd= document.getElementById("Repass").value;
-	
+	var cpwd= document.getElementById("Repass").value;	
 	var letters = /^[0-9]+$/;
 	var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
