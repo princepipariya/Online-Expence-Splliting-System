@@ -10,6 +10,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="login.js"></script>
+    <script>
+		function myFunction() {
+	  		var x = document.getElementById("Pass");
+	  		if (x.type === "password") {
+	    		x.type = "text";
+	  		} 
+	  		else {
+	    		x.type = "password";
+	  		}
+		}
+	</script>
 	<center>
 	<br>
 	<span><h1><b><u>Login Form</u></b></h1></span>
@@ -23,10 +34,12 @@
         <label><b>Password     
         </b>    
         </label>    <br>
-        <input type="Password" name="password" id="Pass" placeholder="Password" required>  
+        <input type="password" name="password" id="Pass" placeholder="Password" required>  
         <br><br>    
         <input type="checkbox" id="check">    
-        <span>Remember me</span>  
+        <span>Remember me</span>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="checkbox" onclick="myFunction()" id="show">    
+        <span>Show Password</span>  
         <br><br>    
         <input type="submit" class="btn btn-primary btn-sm" name="login" onClick="login()" value="Log In Here">       
         <br><br>
