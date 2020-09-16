@@ -19,3 +19,13 @@ function login() {
    		window.location = "home.html";
 	}
 }	
+	
+function myFunction() {
+	var x = document.getElementById("Pass");
+	if (x.type === "password") {
+		x.type = "text";
+	} 
+	else {
+		x.type = "password";
+	}
+}
